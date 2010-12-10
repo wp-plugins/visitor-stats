@@ -1,7 +1,7 @@
 <?php
 /*  
   Plugin Name: visitor-stats
-  Version: 2.01
+  Version: 2.02
   Plugin URI: http://tinyurl.com/visitorstats
   Description: This plugin will keep track of visitors' information. Check <a href="index.php?page=visitor-stats/visitor-stats.php">this page</a> for details. Requires at least 2.6.3 and tested upto 2.7.1
   Author: visitorstats
